@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.title-about{
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    width: 8%;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.title-portfolio{
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    width: 11%;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+/* Intro/Home */
+.intro{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(Images/intro.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro-contents{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro-h1{
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px black;
+    margin-bottom: 10px;
+}
+.intro-button {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 14px 30px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.intro-button:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: #000;
+    transition-duration: .7s;
+}
+
+/* About */
+.about{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+.about-h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.about-h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.p-content{
+    font-size: 25px;
+    margin-bottom: 10px; 
+}
+.about-button{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.about-button:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    transition-duration: .7s;
+}
+.about-content{
+    width: 75%;
+    height: 500px;
+    margin-bottom: 0;
+}
+.about-content-left{
+    width: 45%;
+    position: relative;
+    left: 100px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.about-content-left img{
+    padding-top: 2%;
+    position: absolute;
+    left: 400px;
+    margin-bottom: 0;
+}
+.about-content-left:hover .shape{
+    padding-left: 20px;
+    transition-duration: 1s;
+}
+.about-content-left:hover .boy{
+    padding-top: 40px;
+    transition-duration: 1s;
+}
+.about-content-right{
+    margin: 150px 50px;
+    float: right;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.about-char{
+    width: 60%;
+}
+.about-fast{
+    margin: 0px 20px 10px 10px;
+    padding: 20px 30px;
+    align-items: center;
+    display: inline-block;
+}
+.about-intuitive{
+    margin: 0px 20px 10px 10px;
+    padding: 20px 30px;
+    align-items: center;
+    display: inline-block;
+}
+.about-versatile{
+    margin: 0px 20px 10px 10px;
+    padding: 20px 30px;
+    align-items: center;
+    display: inline-block;
+}
+
+/* Portfolio */
+.portfolio{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Images/404.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
